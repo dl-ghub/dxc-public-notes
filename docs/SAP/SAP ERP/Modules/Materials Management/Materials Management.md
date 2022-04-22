@@ -1,0 +1,2 @@
+# Materials Management (MM)
+Manages procurement of materials and services from suppliers as well as related inventory processes, such as counting and reconciling physical inventory. MM also manages all goods issuance, receipts and transfers of a material from one plant or storage location to another. 

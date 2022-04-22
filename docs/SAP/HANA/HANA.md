@@ -1,0 +1,2 @@
+# SAP HANA
+SAP HANA is a **database management system**. Alongside traditional database functionality (CRUD), it has embedded advanced analytics capabilities such as predictive analytics and text analysis, mining, and search. SAP HANA also offers application development services supporting a variety of programming languages. 

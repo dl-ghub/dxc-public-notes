@@ -1,0 +1,1 @@
+The CS module handles the business processes for providing maintenance services to customer equipment. The option to bill customers for the maintenance services delivered is also part of CS.

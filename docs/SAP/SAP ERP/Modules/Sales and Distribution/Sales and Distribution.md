@@ -1,0 +1,2 @@
+# Sales and Distribution (SD)
+The SD module manages major processes of sales and distribution. This includes selling products or services through direct sales to customers or through distribution networks. SD also handles customer returns, along with billing and credit insurance. 
