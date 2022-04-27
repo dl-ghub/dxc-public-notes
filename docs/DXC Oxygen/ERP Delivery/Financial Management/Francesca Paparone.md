@@ -11,8 +11,3 @@ Practice Manager (with [[Steve Morling]])
 [[Dylan Leon]]
 [[Vicki Harrison]]
 [[Wihardia Totong]]
-
-
-
-
-#people 

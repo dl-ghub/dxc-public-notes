@@ -1,6 +1,6 @@
-## Global Infrastructure Services
+# Global Infrastructure Services
 ![[Pasted image 20220301124054.png]]
-## Offerings
+# Offerings
 [[Cloud]]
 [[Security]]
 [[IT Outsourcing (ITO)]]

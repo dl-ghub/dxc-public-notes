@@ -1,15 +1,10 @@
-## Team
+# Team
 Financial Management
 
-## Title
+# Title
 Associate Consultant
 
-## Reports To
+# Reports To
 [[Francesca Paparone]]
 
-## Manages
-
-
-
-
-#people 
+# Manages

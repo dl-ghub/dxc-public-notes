@@ -1,16 +1,12 @@
-## Team
+# Team
 APAC SAP Data & Analytics
 
-## Title
+# Title
 Practice Manager
 
-## Reports To
+# Reports To
 [[Adam Sawley]]
 
-## Manages
+# Manages
 - [[Timothy Smyth]]
 - [[Ronald Walker]]
-
-
-
-#people 

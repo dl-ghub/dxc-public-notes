@@ -1,13 +1,7 @@
-## Title
+# Title
 Head of [[Cloud & Platform]] APAC
 
-## Reports To
+# Reports To
 [[Stuart Dickinson]]
 
-## Manages
-
-
-
-
-
-#people 
+# Manages

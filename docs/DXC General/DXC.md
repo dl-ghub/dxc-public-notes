@@ -1,7 +1,7 @@
 ![[Pasted image 20220301113455.png]]
 
 
-## Revenue Streams
+# Revenue Streams
 
 ![[Pasted image 20220301150029.png]]
 ![[Pasted image 20220301114037.png]]
