@@ -1,11 +1,11 @@
 Post Acquisition - Without Purchase Order (F-90)
 ---
 # Details
-Business Role(s) &nbsp;&nbsp;&nbsp;:  [[Asset Accountant]]<br />
+Business Role(s) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  [[Asset Accountant]]<br />
 App Launcher Title(s) &nbsp;&nbsp;&nbsp;:  Post Acquisition (Integrated AP)<br />
-Application Type &nbsp;&nbsp;&nbsp;:  SAP GUI <br />
-T-code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  F-90  <br />
-Scope Item &nbsp;&nbsp;&nbsp;&nbsp;:  [[Asset Accounting (J62)]]
+Application Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  SAP GUI <br />
+T-code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  F-90  <br />
+Scope Item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  [[Asset Accounting (J62)]]
 
 # Usage
 You want to post an asset acquisition from a vendor (integrated with [[Accounts Payable (J60)]])) without a Purchase Order. You need to first make sure the asset master exists (if not, [[Create Asset (AS01)]]), and then you can post the vendor invoice for its acquisition. 
