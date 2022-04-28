@@ -1,0 +1,3629 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
+    
+    
+      
+        <title>WBS - DXC Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c5ef100.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="DXC Wiki" class="md-header__button md-logo" aria-label="DXC Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DXC Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              WBS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="pink"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DXC Wiki" class="md-nav__button md-logo" aria-label="DXC Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    DXC Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Wiki Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Accounting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Accounting" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Accounting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/Revenue%20Recognition/" class="md-nav__link">
+        Revenue Recognition
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          From Source Document to Financial Statement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="From Source Document to Financial Statement" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          From Source Document to Financial Statement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/Balance%20Day%20Adjustments/" class="md-nav__link">
+        Balance Day Adjustments
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/Balance%20Sheets/" class="md-nav__link">
+        Balance Sheets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/From%20Source%20Document%20to%20Financial%20Statement/" class="md-nav__link">
+        From Source Document to Financial Statement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/Journals/" class="md-nav__link">
+        Journals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/Ledgers/" class="md-nav__link">
+        Ledgers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/Profit%20%26%20Loss%20Statements/" class="md-nav__link">
+        Profit & Loss Statements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/Source%20Documents/" class="md-nav__link">
+        Source Documents
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Accounting/From%20Source%20Document%20to%20Financial%20Statement/Trial%20Balances/" class="md-nav__link">
+        Trial Balances
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Competitors
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Competitors" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Competitors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Competitors/Accenture/" class="md-nav__link">
+        Accenture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          DXC General
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DXC General" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          DXC General
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20General/Applications/" class="md-nav__link">
+        Applications
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20General/DXC/" class="md-nav__link">
+        DXC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20General/GBS/" class="md-nav__link">
+        Global Business Services
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20General/GIS/" class="md-nav__link">
+        Global Infrastructure Services
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          DXC Oxygen
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DXC Oxygen" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          DXC Oxygen
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/DXC%20Oxygen/" class="md-nav__link">
+        DXC Oxygen - SAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Stuart%20Dickinson/" class="md-nav__link">
+        Stuart Dickinson
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Cloud & Platform
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cloud & Platform" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Cloud & Platform
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Cloud%20%26%20Platform/Christiaan%20Du%20Plessis/" class="md-nav__link">
+        Title
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Cloud%20%26%20Platform/Cloud%20%26%20Platform/" class="md-nav__link">
+        Cloud & Platform
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          ERP Delivery
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="ERP Delivery" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          ERP Delivery
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/ERP%20Delivery/Adam%20Sawley/" class="md-nav__link">
+        Adam Sawley
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/ERP%20Delivery/ERP%20Delivery/" class="md-nav__link">
+        ERP Delivery
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4_3" type="checkbox" id="__nav_5_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4_3">
+          Data & Analytics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Data & Analytics" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Data & Analytics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/ERP%20Delivery/Data%20%26%20Analytics/Martin%20Green/" class="md-nav__link">
+        Team
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4_4" type="checkbox" id="__nav_5_4_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4_4">
+          Financial Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Financial Management" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Financial Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/ERP%20Delivery/Financial%20Management/Dylan%20Leon/" class="md-nav__link">
+        Team
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/ERP%20Delivery/Financial%20Management/Francesca%20Paparone/" class="md-nav__link">
+        Francesca Paparone
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/ERP%20Delivery/Financial%20Management/Steve%20Morling/" class="md-nav__link">
+        Steve Morling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_5">
+          Presales & Governance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Presales & Governance" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Presales & Governance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Presales%20%26%20Governance/Matthew%20Sylvester/" class="md-nav__link">
+        Matthew Sylvester
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Presales%20%26%20Governance/Presales%20%26%20Governance/" class="md-nav__link">
+        Presales & Governance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_6">
+          Program Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Program Management" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Program Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Program%20Management/Berend%20Adrian/" class="md-nav__link">
+        Berend Adrian
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Program%20Management/Program%20Management/" class="md-nav__link">
+        Program Management
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_7">
+          Sales
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sales" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Sales
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Sales/Paul%20Kruger/" class="md-nav__link">
+        Paul Kruger
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DXC%20Oxygen/Sales/Sales/" class="md-nav__link">
+        Sales
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Project Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Project Management" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Project Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Project%20Management/" class="md-nav__link">
+        Various Tools and Methodologies in Project Management
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RACI/" class="md-nav__link">
+        RACI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        WBS
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          SAP
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SAP" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          SAP
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP/" class="md-nav__link">
+        DXC Oxygen - SAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_2">
+          HANA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HANA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          HANA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/HANA/HANA/" class="md-nav__link">
+        SAP HANA
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_3" type="checkbox" id="__nav_7_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_3">
+          SAP Activate
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SAP Activate" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_3">
+          <span class="md-nav__icon md-icon"></span>
+          SAP Activate
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20Activate/SAP%20Activate/" class="md-nav__link">
+        SAP Activate
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4" type="checkbox" id="__nav_7_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4">
+          SAP ERP
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SAP ERP" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_4">
+          <span class="md-nav__icon md-icon"></span>
+          SAP ERP
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Deployment%20Approaches/" class="md-nav__link">
+        Deployment Approaches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/SAP%20ERP/" class="md-nav__link">
+        SAP ERP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_3" type="checkbox" id="__nav_7_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_3">
+          Business Processes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Business Processes" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Business Processes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Business%20Processes/Business%20Processes/" class="md-nav__link">
+        Business Processes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Business%20Processes/Standard%20Financial%20Accounting%20Processes/" class="md-nav__link">
+        Standard Financial Accounting Processes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_3_3" type="checkbox" id="__nav_7_4_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_3_3">
+          Financial Accounting Processes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Financial Accounting Processes" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Financial Accounting Processes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Business%20Processes/Financial%20Accounting%20Processes/Acquire-to-Retire/" class="md-nav__link">
+        Acquire to Retire
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Business%20Processes/Financial%20Accounting%20Processes/Order-to-Cash/" class="md-nav__link">
+        Order to Cash
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Business%20Processes/Financial%20Accounting%20Processes/Purchase-to-Pay/" class="md-nav__link">
+        Purchase to Pay
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Business%20Processes/Financial%20Accounting%20Processes/Record-to-Report/" class="md-nav__link">
+        Record to Report
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_4" type="checkbox" id="__nav_7_4_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_4">
+          Enterprise Structure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Enterprise Structure" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Enterprise Structure
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Asset%20Class/" class="md-nav__link">
+        Asset Class
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Chart%20of%20Depreciation/" class="md-nav__link">
+        Chart of Depreciation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Client/" class="md-nav__link">
+        Client
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Company%20Code/" class="md-nav__link">
+        Company Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Company/" class="md-nav__link">
+        Company
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Controlling%20Area/" class="md-nav__link">
+        Controlling Area
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Cost%20Centre/" class="md-nav__link">
+        Cost Centre
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Credit%20Control%20Area/" class="md-nav__link">
+        Credit Control Area
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Depreciation%20Area/" class="md-nav__link">
+        Depreciation Area
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Enterprise%20Structure/" class="md-nav__link">
+        Enterprise Structure
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Functional%20Area/" class="md-nav__link">
+        Functional Area
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Profit%20Centre/" class="md-nav__link">
+        Profit Centre
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Enterprise%20Structure/Segment/" class="md-nav__link">
+        Segment
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5" type="checkbox" id="__nav_7_4_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5">
+          Modules
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modules" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Modules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_1" type="checkbox" id="__nav_7_4_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_1">
+          Controlling (Management Accounting)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Controlling (Management Accounting)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Controlling (Management Accounting)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Controlling%20%28Management%20Accounting%29/Controlling%20%28Management%20Accounting%29/" class="md-nav__link">
+        Controlling (Management Accounting)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_1_2" type="checkbox" id="__nav_7_4_5_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_1_2">
+          Cost Centres (CO)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cost Centres (CO)" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Cost Centres (CO)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Controlling%20%28Management%20Accounting%29/Cost%20Centres%20%28CO%29/Cost%20Centre%20%28CO%29/" class="md-nav__link">
+        Cost Centre (CO)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_1_3" type="checkbox" id="__nav_7_4_5_1_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_1_3">
+          Cost Elements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cost Elements" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Cost Elements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Controlling%20%28Management%20Accounting%29/Cost%20Elements/Cost%20Elements/" class="md-nav__link">
+        Cost Elements
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_1_4" type="checkbox" id="__nav_7_4_5_1_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_1_4">
+          Internal Orders
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Internal Orders" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Internal Orders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Controlling%20%28Management%20Accounting%29/Internal%20Orders/Internal%20Orders/" class="md-nav__link">
+        Internal Orders
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_1_5" type="checkbox" id="__nav_7_4_5_1_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_1_5">
+          Product Costing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Product Costing" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Product Costing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Controlling%20%28Management%20Accounting%29/Product%20Costing/Product%20Costing/" class="md-nav__link">
+        Product Costing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_1_6" type="checkbox" id="__nav_7_4_5_1_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_1_6">
+          Profit Centres (CO)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Profit Centres (CO)" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          Profit Centres (CO)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Controlling%20%28Management%20Accounting%29/Profit%20Centres%20%28CO%29/Profit%20Centre%20%28CO%29/" class="md-nav__link">
+        Profit Centre (CO)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_1_7" type="checkbox" id="__nav_7_4_5_1_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_1_7">
+          Profitability Analysis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Profitability Analysis" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_1_7">
+          <span class="md-nav__icon md-icon"></span>
+          Profitability Analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Controlling%20%28Management%20Accounting%29/Profitability%20Analysis/Profitability%20Analysis/" class="md-nav__link">
+        Profitability Analysis
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_2" type="checkbox" id="__nav_7_4_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_2">
+          Customer Services (Sales)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Customer Services (Sales)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Customer Services (Sales)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Customer%20Services%20%28Sales%29/Customer%20Services%20%28Sales%29/" class="md-nav__link">
+        Customer Services (Sales)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3" type="checkbox" id="__nav_7_4_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3">
+          Financial Accounting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Financial Accounting" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Financial Accounting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Financial%20Accounting/" class="md-nav__link">
+        Financial Accounting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_2" type="checkbox" id="__nav_7_4_5_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_2">
+          Business Roles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Business Roles" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Business Roles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Business%20Roles/Asset%20Accountant/" class="md-nav__link">
+        Asset Accountant
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Business%20Roles/General%20Ledger%20Accountant/" class="md-nav__link">
+        General Ledger Accountant
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3" type="checkbox" id="__nav_7_4_5_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3">
+          Submodules
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Submodules" data-md-level="5">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Submodules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_1" type="checkbox" id="__nav_7_4_5_3_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_1">
+          Accounts Payable
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Accounts Payable" data-md-level="6">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Accounts Payable
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Accounts%20Payable/Accounts%20Payable%20%28J60%29/" class="md-nav__link">
+        Accounts Payable (J60)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Accounts%20Payable/Create%20invoice%20from%20logistics/" class="md-nav__link">
+        Create invoice from logistics
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_2" type="checkbox" id="__nav_7_4_5_3_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_2">
+          Accounts Receivable
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Accounts Receivable" data-md-level="6">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Accounts Receivable
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Accounts%20Receivable/Accounts%20Receivable%20%28J59%29/" class="md-nav__link">
+        Accounts Receivable (J59)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Accounts%20Receivable/Credit%20Management/" class="md-nav__link">
+        Credit Management
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_3" type="checkbox" id="__nav_7_4_5_3_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_3">
+          Asset Accounting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Asset Accounting" data-md-level="6">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Asset Accounting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Asset%20Accounting%20%28J62%29/" class="md-nav__link">
+        Asset Accounting (J62)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_3_2" type="checkbox" id="__nav_7_4_5_3_3_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_3_2">
+          Transactions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Transactions" data-md-level="7">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Transactions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Manage%20Fixed%20Assets%20%28F3425%29/" class="md-nav__link">
+        Manage Fixed Assets (F3425)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_3_2_2" type="checkbox" id="__nav_7_4_5_3_3_3_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_3_2_2">
+          Acquisitions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Acquisitions" data-md-level="8">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_3_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Acquisitions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Acquisitions/Post%20Acquisition%20-%20Without%20Purchase%20Order%20%28F-90%29/" class="md-nav__link">
+        Post Acquisition - Without Purchase Order (F-90)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_3_2_3" type="checkbox" id="__nav_7_4_5_3_3_3_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_3_2_3">
+          Master Data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Master Data" data-md-level="8">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_3_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Master Data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Master%20Data/Create%20Asset%20%28AS01%29/" class="md-nav__link">
+        Create Asset (AS01)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Master%20Data/Display%20Asset%20%28AS03%29/" class="md-nav__link">
+        Display Asset (AS03)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_3_2_4" type="checkbox" id="__nav_7_4_5_3_3_3_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_3_2_4">
+          Retirement
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Retirement" data-md-level="8">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_3_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Retirement
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Retirement/Post%20Retirement%20-%20By%20Scrapping%20%28ABAVN%29/" class="md-nav__link">
+        Post Retirement - By Scrapping (ABAVN)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Retirement/Post%20Retirement%20-%20With%20Customer%20%28F-92%29/" class="md-nav__link">
+        Post Retirement   With Customer (F 92)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Retirement/Post%20Retirement%20-%20Without%20Customer%20%28ABAON%29/" class="md-nav__link">
+        Post Retirement   Without Customer (ABAON)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_3_2_5" type="checkbox" id="__nav_7_4_5_3_3_3_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_3_2_5">
+          Transfers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Transfers" data-md-level="8">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_3_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Transfers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Transfers/Post%20Transfer%20-%20Across%20Company%20Codes%20%28ABT1N%29/" class="md-nav__link">
+        Post Transfer   Across Company Codes (ABT1N)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Asset%20Accounting/Transactions/Transfers/Post%20Transfer%20-%20Within%20Company%20Code%20%28ABUMN%29/" class="md-nav__link">
+        Post Transfer   Within Company Code (ABUMN)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_4" type="checkbox" id="__nav_7_4_5_3_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_4">
+          Bank Accounting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bank Accounting" data-md-level="6">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Bank Accounting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/Bank%20Accounting/Bank%20Accounting/" class="md-nav__link">
+        Bank Accounting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_5" type="checkbox" id="__nav_7_4_5_3_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_5">
+          General Ledger
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="General Ledger" data-md-level="6">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          General Ledger
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/General%20Ledger/Accounting%20and%20Financial%20Close%20%28J58%29/" class="md-nav__link">
+        Accounting and Financial Close (J58)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/General%20Ledger/Chart%20of%20Accounts/" class="md-nav__link">
+        Chart of Accounts (COA)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/General%20Ledger/General%20Ledger/" class="md-nav__link">
+        General Ledger
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_3_3_5_4" type="checkbox" id="__nav_7_4_5_3_3_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_3_3_5_4">
+          Transactions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Transactions" data-md-level="7">
+        <label class="md-nav__title" for="__nav_7_4_5_3_3_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Transactions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Financial%20Accounting/Submodules/General%20Ledger/Transactions/Display%20Document%20%28FB03%29/" class="md-nav__link">
+        Display Document (FB03)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_4" type="checkbox" id="__nav_7_4_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_4">
+          Human Capital Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Human Capital Management" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Human Capital Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Human%20Capital%20Management/Human%20Capital%20Management/" class="md-nav__link">
+        Human Capital Management
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_5" type="checkbox" id="__nav_7_4_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_5">
+          Materials Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Materials Management" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Materials Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Materials%20Management/Materials%20Management/" class="md-nav__link">
+        Materials Management (MM)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_6" type="checkbox" id="__nav_7_4_5_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_6">
+          Plant Maintenance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Plant Maintenance" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Plant Maintenance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Plant%20Maintenance/Plant%20Maintenance/" class="md-nav__link">
+        Plant Maintenance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_7" type="checkbox" id="__nav_7_4_5_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_7">
+          Project Planning
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Project Planning" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Project Planning
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Project%20Planning/Project%20Planning/" class="md-nav__link">
+        Project Planning
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_8" type="checkbox" id="__nav_7_4_5_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_8">
+          Project Systems
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Project Systems" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_8">
+          <span class="md-nav__icon md-icon"></span>
+          Project Systems
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Project%20Systems/Project%20Systems/" class="md-nav__link">
+        Project Systems
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_9" type="checkbox" id="__nav_7_4_5_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_9">
+          Quality Management
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Quality Management" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_9">
+          <span class="md-nav__icon md-icon"></span>
+          Quality Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Quality%20Management/Quality%20Management/" class="md-nav__link">
+        Quality Management
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_5_10" type="checkbox" id="__nav_7_4_5_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_5_10">
+          Sales and Distribution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sales and Distribution" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_5_10">
+          <span class="md-nav__icon md-icon"></span>
+          Sales and Distribution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/Modules/Sales%20and%20Distribution/Sales%20and%20Distribution/" class="md-nav__link">
+        Sales and Distribution (SD)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_6" type="checkbox" id="__nav_7_4_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_6">
+          S4HANA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="S4HANA" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          S4HANA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/S4HANA/" class="md-nav__link">
+        S4HANA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/Universal%20Journal/" class="md-nav__link">
+        Universal Journal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_6_3" type="checkbox" id="__nav_7_4_6_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_6_3">
+          Deployment Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Deployment Models" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          Deployment Models
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/Deployment%20Models/Deployment%20Models/" class="md-nav__link">
+        Deployment Models
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/Deployment%20Models/S4HANA%20Any-Premise/" class="md-nav__link">
+        S4HANA Any Premise
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/Deployment%20Models/S4HANA%20Cloud%2C%20Private%20Edition/" class="md-nav__link">
+        S4HANA Cloud, Private Edition
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/Deployment%20Models/S4HANA%20Cloud%2C%20Public%20Edition/" class="md-nav__link">
+        S4HANA Cloud, Public Edition
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_6_4" type="checkbox" id="__nav_7_4_6_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_6_4">
+          User Interfaces
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="User Interfaces" data-md-level="4">
+        <label class="md-nav__title" for="__nav_7_4_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          User Interfaces
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/User%20Interfaces/S4HANA%20User%20Interfaces/" class="md-nav__link">
+        S4HANA User Interfaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/User%20Interfaces/SAP%20Fiori/" class="md-nav__link">
+        SAP Fiori
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/User%20Interfaces/SAP%20GUI/" class="md-nav__link">
+        SAP GUI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/S4HANA/User%20Interfaces/Web%20GUI/" class="md-nav__link">
+        Web GUI
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_4_7" type="checkbox" id="__nav_7_4_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_4_7">
+          SAP ECC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SAP ECC" data-md-level="3">
+        <label class="md-nav__title" for="__nav_7_4_7">
+          <span class="md-nav__icon md-icon"></span>
+          SAP ECC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SAP%20ERP/SAP%20ECC/SAP%20ECC/" class="md-nav__link">
+        SAP ERP Central Component
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_5" type="checkbox" id="__nav_7_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_5">
+          SuccessFactors
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SuccessFactors" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_5">
+          <span class="md-nav__icon md-icon"></span>
+          SuccessFactors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SAP/SuccessFactors/SuccessFactors/" class="md-nav__link">
+        SuccessFactors
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+  <h1>WBS</h1>
+
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../RACI/" class="md-footer__link md-footer__link--prev" aria-label="Previous: RACI" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              RACI
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../SAP/SAP/" class="md-footer__link md-footer__link--next" aria-label="Next: DXC Oxygen - SAP" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              DXC Oxygen - SAP
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.748e2769.min.js"></script>
+      
+    
+  </body>
+</html>
